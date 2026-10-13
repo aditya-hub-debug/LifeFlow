@@ -1105,3 +1105,22 @@ input::placeholder {
     max-width: 80%;
     max-height: 90px;
 }
+
+.send {
+    background-color: #d92d3a;
+    color: #ffffff;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 260px;
+    padding: 15px 55px;
+    border-radius: 7px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.send:hover {
+    opacity: 0.8;
+}
+.send:active {
+    opacity: 0.5;
+}
